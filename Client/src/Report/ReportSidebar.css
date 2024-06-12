@@ -1,0 +1,26 @@
+#reports-sidebar {
+  background-color: #ebb80ef1;
+  color: black;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+}
+
+ul{
+  list-style-type: none;
+  list-style: none;
+}
+
+.sub-title {
+  justify-content: left;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#reports-sidebar ul li:hover span {
+  color:red
+}

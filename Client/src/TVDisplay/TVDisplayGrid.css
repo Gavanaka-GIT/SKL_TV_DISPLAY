@@ -1,0 +1,125 @@
+@import "../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-grids/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-icons/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-react-buttons/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-react-dropdowns/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-react-grids/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-react-inputs/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+
+.e-grid .e-headercell {
+  background-color: darkblue;
+}
+
+.e-grid .e-toolbar {
+  background-color: rgb(221, 221, 250);
+}
+
+#tvDispGrid .e-grid .e-headercelldiv {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  padding: 8px;
+  border: 0px;
+  text-align: center;
+  background-color: darkblue;
+}
+
+
+
+#tvDispGrid .e-grid .e-row .e-rowcell {
+  font-size: large;
+  font-weight: bold;
+}
+
+/* #tvDispGrid .e-grid .e-tbar-btn-text{
+  font-size: 20px !important; 
+} */
+
+/* #tvDispGrid .e-grid .e-headercelldiv {
+  height: 30px !important;
+} */
+
+/* #tvDispGrid .e-grid .e-columnheader{
+  height:55px
+} */
+
+#tvDispGridShift .e-grid .e-headercelldiv {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background-color: beige;
+}
+
+#tvDispGridShift .e-grid .e-row .e-rowcell {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#tvDispGridFull .e-grid .e-headercelldiv {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background-color: beige;
+}
+
+#tvDispGridFull .e-grid .e-row .e-rowcell {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#tvDispGridFull .e-toolbar .e-tbar-btn-text, 
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn-text {
+  font-size: 24px;
+}
+
+.headerClass {
+  display: flex;
+  background-color: rgb(106, 106, 186);
+  color: white;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+}
+
+.lineNameClass {
+  font-size: 24px;
+}
+
+.dateClass {
+ font-size: 16px;
+}
+
+@media screen and (min-width: 1280px) {
+  .dateClass {
+    font: size 24px;
+  }
+  .lineNameClass {
+    font-size: 22px;
+  }
+  #tvDispGrid .e-grid .e-headercelldiv {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    border: 0px;
+    text-align: center;
+    background-color: darkblue;
+  }
+  #tvDispGrid .e-grid .e-headercelldiv {
+    height: 30px !important;
+  }
+  #tvDispGrid .e-grid .e-row .e-rowcell {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+
+

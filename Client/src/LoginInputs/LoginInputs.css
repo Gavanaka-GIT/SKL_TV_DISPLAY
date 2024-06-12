@@ -1,0 +1,19 @@
+@import "../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-react-buttons/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-react-popups/styles/material.css";
+
+.e-dialog .e-dlg-header {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+.loginTextBox{
+  display: flexbox;
+  position: relative;
+
+}
+
+.textBox{
+  margin: 20px;
+}

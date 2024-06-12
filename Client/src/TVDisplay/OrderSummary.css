@@ -1,0 +1,92 @@
+ #packDispGrid .e-grid .e-row .e-rowcell {
+   font-size: 12px;
+ }
+
+ #packDispGrid .e-grid .e-headercelldiv {
+   font-size: 24px;
+   /* font-weight: bold; */
+   color: white;
+   padding: 8px;
+   border: 0px;
+   text-align: center;
+   background-color: darkblue;
+ }
+
+ #packDispGrid .e-toolbar .e-tbar-btn-text,
+ .e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn-text {
+   font-size: 24px;
+ }
+
+ .lineNameClass {
+   font-size: 24px;
+ }
+
+ .divNameClass {
+   text-align: left;
+   font-size: 24px;
+ }
+
+ .divClass {
+   display: flex;
+   border: 1px solid lightgrey;
+   height: 35px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+ }
+
+ #summaryDispGrid .e-grid .e-row .e-rowcell {
+   font-size: 16px;
+   font-weight: bold;
+ }
+
+ #summaryDispGrid .e-grid .e-headercelldiv {
+   font-size: 16px;
+   /* font-weight: bold; */
+   color: white;
+   padding: 8px;
+   border: 0px;
+   text-align: center;
+   background-color: darkblue;
+ }
+
+ @media screen and (min-width: 100px) {
+   .lineNameClass {
+     font-size: 32px;
+   }
+
+   .divNameClass {
+     font-size: 24px;
+     text-align: left;
+   }
+
+   #packDispGrid .e-grid .e-row .e-rowcell {
+     font-size: 20px;
+     /* font-weight: bold; */
+   }
+
+   #packDispGrid .e-grid .e-headercelldiv {
+     font-size: 16px;
+     /* font-weight: bold; */
+     color: white;
+     padding: 8px;
+     border: 0px;
+     text-align: center;
+     background-color: darkblue;
+   }
+
+   #summaryDispGrid .e-grid .e-row .e-rowcell {
+     font-size: 20px;
+     font-weight: bold;
+   }
+
+   #summaryDispGrid .e-grid .e-headercelldiv {
+     font-size: 16px;
+     /* font-weight: bold; */
+     color: white;
+     padding: 8px;
+     border: 0px;
+     text-align: center;
+     background-color: darkblue;
+   }
+ }
