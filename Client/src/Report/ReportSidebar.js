@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+
 import { SidebarComponent } from '@syncfusion/ej2-react-navigations';
 
 import "./ReportSidebar.css";
